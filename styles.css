@@ -739,3 +739,14 @@ em { font-style: normal; color: var(--red); }
 .nav .brand-name { font-size: 1.45rem; }
 .nav .btn-sm { font-size: 1.05rem; padding: 0.95em 1.6em; }
 .nav .btn-sm i { font-size: 1.3em; }
+
+/* v7.1: celular — título quebra dentro da tela; menu mais contido */
+@media (max-width: 899px) {
+  .hero-title .line { width: auto; max-width: 100%; white-space: normal; }
+  .hero-title em { white-space: normal; }
+  .nav .brand-name { font-size: 1.2rem; }
+  .nav .btn-sm { font-size: 1rem; padding: 0.7em; }
+  .nav .btn-sm i { font-size: 1.35em; }
+}
+
+html, body { overflow-x: clip; }
