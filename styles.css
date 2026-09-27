@@ -750,3 +750,6 @@ em { font-style: normal; color: var(--red); }
 }
 
 html, body { overflow-x: clip; }
+
+/* Botões levemente arredondados */
+.btn, .btn::before, .btn::after, .case .link-arrow, .case .link-arrow::before, .case .link-arrow::after { border-radius: 10px; }
