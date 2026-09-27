@@ -727,3 +727,15 @@ em { font-style: normal; color: var(--red); }
 /* Transição faixa vermelha -> trabalhos sem emenda */
 .work-bg { -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 320px); mask-image: linear-gradient(to bottom, transparent 0, #000 320px); }
 .manifesto::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 140px; z-index: 3; pointer-events: none; background: linear-gradient(to bottom, transparent, var(--ink)); }
+
+/* ================= v7 ================= */
+/* Título do topo sempre centralizado, inclusive em telas grandes */
+.hero-title { display: flex; flex-direction: column; align-items: center; text-align: center; width: 100%; margin-inline: auto; }
+.hero-title .line { width: max-content; max-width: none; }
+@media (min-width: 900px) {
+  .hero-title { font-size: clamp(3rem, 5.2vw, 6.25rem); }
+}
+/* Marca e botão do menu maiores */
+.nav .brand-name { font-size: 1.45rem; }
+.nav .btn-sm { font-size: 1.05rem; padding: 0.95em 1.6em; }
+.nav .btn-sm i { font-size: 1.3em; }
