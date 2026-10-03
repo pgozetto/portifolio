@@ -6,10 +6,11 @@ Visual editorial ousado em preto e vermelho, com parallax, fumaça, brasas anima
 
 ## Cases
 
-- [CNOP Soluções](https://xn--cnopsoluoes-t9a.com.br/)
+- [Judô do Zero](https://judoparainiciantes.gozetto.com/)
 - [Doutor Minhoca](https://doutorminhoca.gozetto.com/)
 - [Psicóloga Tatiane](https://psicologa-tatiane.gozetto.com/)
 - [Mecânica Gaiotto](https://mecanica-gaiotto.gozetto.com/)
+- [Instituto da Mulher](https://institutodamulher.vercel.app/)
 
 ## Tecnologias
 
